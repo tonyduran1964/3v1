@@ -30,15 +30,15 @@ hero[1] = {
 
 hero[2] = {
   Name: "Sizzeal",
-  Health: 1000,
-  Attack: 100,
-  Note1: "90-110",
-  Luck: 10,
-  Defense: 10,
-  Note2: "90% damage",
-  SkillPoints: 200,
-  Recovery: 25,
-  Skills: ["Shadow Shot", "Intimiate", "Taze"]
+  Health: 800,
+  Attack: 70,
+  Note1: "60-80",
+  Luck: 18,
+  Defense: 0,
+  Note2: "100% damage",
+  SkillPoints: 300,
+  Recovery: 30,
+  Skills: ["Sizzle", "Heal Prayer", "Aqua Heal"]
 }
 
 boss = [];
