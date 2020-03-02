@@ -1,14 +1,10 @@
-//Get the index of the hero's using their names.
-//var snark = hero.findIndex(i => i.Name === "Snark");
-//var plunky = hero.findIndex(i => i.Name === "Plunky");
-//var sizzeal = hero.findIndex(i => i.Name === "Sizzeal");
-//alert("Snark is Hero: " + snark )
-//alert("Sizzeal health: " + hero[sizzeal].Health)
-//alert("Hero 0 1st Skill: " + hero[0].Skills[0] )
+// NOTE: remnove CSS to show Johnsters.
 
-///////////////////////////////////////////////
-//Get handle on screen elements we will change.
-///////////////////////////////////////////////
+////////////////////////////
+//DECLARE GOBAL VARIABLES //
+////////////////////////////
+
+//// Get handle on screen elements we will change. \\\\
 
 //Hero1 stats
 var lblHero1Name = document.getElementById('lblHero1Name');
@@ -43,9 +39,31 @@ var lblBoss3Health = document.getElementById('lblBossHealth');
 var lblBossAttack = document.getElementById('lblBossAttack');
 var lblBossDefense = document.getElementById('lblBossDefense');
 
-////////////////////////////////
-//Populate the screen elements
-///////////////////////////////
+//Get the index of each hero using their names.
+// (Might not need this.)
+var snark = hero.findIndex(i => i.Name === "Snark");
+var plunky = hero.findIndex(i => i.Name === "Plunky");
+var sizzeal = hero.findIndex(i => i.Name === "Sizzeal");
+//alert("Snark is Hero: " + snark )
+//alert("Sizzeal health: " + hero[sizzeal].Health)
+//alert("Hero 0 1st Skill: " + hero[0].Skills[0] )
+
+//var divHero1 = document.getElementById('divHero1');
+//divHero1.className = "active';"
+
+//// Declare game variables. \\\\
+
+
+
+
+
+
+
+///////////////////////////
+//  GAME INITIALIZATION  //
+///////////////////////////
+
+//// Populate the screen elements \\\\
 
 //Hero1 stats
 lblHero1Name.innerText  = hero[0].Name;
@@ -80,7 +98,26 @@ lblBossHealth.innerText  = boss[0].Health;
 lblBossAttack.innerText  = boss[0].Attack;
 lblBossDefense.innerText  = boss[0].Defense;
 
-//Roll initiative
+//Roll initiative.
 
-//Based on initiative, Heroacters/enemy choose //userAttackOptions
+//Display intro messages and order of initiative.
+
+////////////////////
+// MAIN GAME LOOP //
+////////////////////
+
+//Was RESTART button pressed?
+//  If yes, go back to START GAME.
+
+//Is boss dead?  
+//  If yes, go to WIN GAME.
+
+//Are all heroes dead?
+//  If yes, go to LOSE GAME.
+
+//Next hero or boss on initiative order chooses their action.
+
+//Do the work for each action.
+
+//Go back to MAIN GAME LOOP.
 
