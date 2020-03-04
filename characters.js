@@ -12,7 +12,8 @@ hero[0] = {
   Note2: "90% damage",
   SkillPoints: 200,
   Recovery: 25,
-  Skills: ["Shadow Shot", "Intimidate", "Taze"]
+  Skills: ["Shadow Shot", "Intimidate", "Taze"],
+  Speed: 0 
 }
 
 hero[1] = {
@@ -25,7 +26,8 @@ hero[1] = {
   Note2: "80% damage",
   SkillPoints: 250,
   Recovery: 20,
-  Skills: ["Encourage", "Fortify", "Weaken"]
+  Skills: ["Encourage", "Fortify", "Weaken"],
+  Speed: 0 
 }
 
 hero[2] = {
@@ -38,7 +40,9 @@ hero[2] = {
   Note2: "100% damage",
   SkillPoints: 300,
   Recovery: 30,
-  Skills: ["Sizzle", "Heal Prayer", "Aqua Heal"]
+  Skills: ["Sizzle", "Heal Prayer", "Aqua Heal"],
+  Speed: 0 
+
 }
 
 boss = [];
@@ -52,7 +56,9 @@ boss[0] = {
   Attack: 150,
   Note1: "140-160",
   Defense: 20,
-  Note2: "80% damage"
+  Note2: "80% damage",
+  Speed: 0 
+
 }
 
 //NOTE: The complex boss attacks will be handled
