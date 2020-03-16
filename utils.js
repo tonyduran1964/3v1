@@ -11,7 +11,6 @@ function activate(element){
   document.getElementById('divBoss1').className = "";
   
   document.getElementById(element).className = "active";
-
 }
 
 //Use Fisher-Yates sort algorithm to randomize order of an array.
@@ -29,4 +28,12 @@ function getNames(value, index, array) {
     if (attackOrder[index] == 3)  lblAttackOrder1.innerText = hero[0].Name;
     if (attackOrder[index] == 4)  lblAttackOrder1.innerText = boss[0].Name;
   }  
+}
+
+function attackButton() {
+  //alert("ATTACK");
+}
+
+function defendButton() {
+  //alert("DEFEND");
 }

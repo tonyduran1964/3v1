@@ -232,6 +232,19 @@
 
       <br/>
 
+      <!-- Action Buttons. -->
+      <div class="divAttackButton">
+        <button id="attackButton" class="actionButton" onclick="attackButton()">ATTACK</button>
+      </div>
+      
+      <div class="divDefendButton">
+        <button id="defendButton" class="actionButton" onclick="defendButton()">DEFEND</button>
+      </div>
+
+
+<div class="button_cont" align="center"><a class="attackButton" href="add-website-here" target="_blank" rel="nofollow noopener">Add Call to Action</a></div>
+
+      <!-- Attack Order Display -->
       <div id="divAttackOrder">
         <table>
           <tr>
@@ -270,6 +283,7 @@
 
     </div>
 
+
     <!-- Buttons to activate each character. -->
     <button onclick="activate('divHero1')">Activate Hero1</button>
     <button onclick="activate('divHero2')">Activate Hero2</button>
@@ -277,12 +291,15 @@
     <button onclick="activate('divBoss1')">Activate Boss</button>
     <button onclick="activate('')">Deactivate all</button>
 
+    <!-- Load all .js files.  The order is important! -->
     <script src="characters.js"></script>
     <script src="skills.js"></script>
     <script src="globals.js"></script>
     <script src="utils.js"></script>
     <script src="init.js"></script>
     <script src="main.js"></script>
+
+
 
   </body>
 
