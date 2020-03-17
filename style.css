@@ -6,32 +6,7 @@ body{
 }
 
 #divBody {
-
-  /*
-  background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/lQ5OEwGvHhURqpOrvc7oou-9h-fXwpL4lGhGmIxuJH0pX92IB?viewBox=1069%2C713");
-
-  background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/-RpKnD0fwEltklK5gK9_IaeoVF9f-rmlYyzef9ABsDopX92IB?viewBox=583%2C398");
-
-  background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/DnUcpfBI10YtwwD2HiT1fvA5cwa1wzwvsdtqNZ6BWmwpX92IB?viewBox=906%2C611");
-
-  background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/WDxreU4Wb9EYs4NHkuNUow04O5yP95OLIp_mNfObl4cpX92IB?viewBox=800%2C450");
-
-  background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/BD2lePRgjDUwTo7k44uTduGpDv0wVZlO66HYPxYeyVwpX92IB?viewBox=1065%2C600");
-
-  background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/Ai-BkpaXi9uYjLb1qyuhf76aybiv2yxcEMJYW-Xm0RopX92IB?viewBox=688%2C743"); 
-
-  background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/Kepk2HFhPuE7TdeGF1IubQLwO6Lib7oThO4UtVom0GEeJxFPc?viewBox=1065%2C600&ownerId=A2MCRD6H2DR14G");
-
-  background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/MTdSy_oJHdzkNMbNAUzMh1rlk_bmFeEx89ftjUfBtFopX92IB?viewBox=800%2C450");
-
-
-  background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/X_w-ZcNX59JZzpXfP0_C6_9Qgv83EnQZoA9uBxqE7bgpX92IB?viewBox=1166%2C656");
-
-*/
-
   background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/VztSF8QfQ0aYBL9-uvZXkw5quyXUohVqv2yc2IUhBuApX92IB?viewBox=1280%2C720");
-
-
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -146,19 +121,21 @@ td {
 }
 
 /* Attack Buttons */
+
 .divAttackButton {
   height: 200px;
   width: 200px; 
   position: absolute;
-  left: 200px;
-  top: 50px;
+  left: 400px;
+  top: 225px;
 }
+
 .divDefendButton {
   height: 200px;
   width: 200px; 
   position: absolute;
-  left: 200px;
-  top: 150px;
+  left: 525px;
+  top: 225px;
 }
 
 .actionButton {
@@ -177,7 +154,6 @@ td {
   outline:none;
 }
 
-
 #attackButton {
   color: #f73808;
   border: 4px solid red !important;
@@ -192,7 +168,6 @@ td {
   transform: translateY(4px);
 }
 
-
 #defendButton {
   color: green;
   border: 4px solid green !important;
@@ -205,5 +180,80 @@ td {
 #defendButton:active {
   background-color: green;
   transform: translateY(4px);
+}
+
+/* Images */
+.skillButton {
+  background-color:white;
+  border: 4px solid; 
+  border-color:blue;
+  border-radius: 6px;
+  height: 45px;
+  left: 400px;
+  margin: 10px;
+  outline:none;
+  padding: 8px;
+  position: absolute;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  width: 400px;
+}
+
+#skill1Button {
+  top: 285px;
+}
+
+/* Skill Buttons */
+
+.skillButton {
+  background-color:white;
+  border: 4px solid; 
+  border-color:blue;
+  border-radius: 6px;
+  height: 45px;
+  left: 400px;
+  margin: 10px;
+  outline:none;
+  padding: 8px;
+  position: absolute;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  width: 400px;
+}
+
+#skill1Button {
+  top: 285px;
+}
+
+#skill2Button {
+  top: 335px;
+}
+
+#skill3Button {
+  top: 385px;
+}
+
+.skillButton:hover {
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  outline:none;
+}
+
+
+
+
+/* Status Message Area */
+#areaStatusMessages {
+  border-color:black;
+  border: 4px ridge; 
+  padding: 8px;
+  margin: 10px;
+  height: 150px;
+  width: 650px;
+  background-color:white;
+  position: absolute;
+  left: 400px;
+  top: 450px;
+  border-radius: 15px;
 }
 
