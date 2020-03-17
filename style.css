@@ -183,24 +183,43 @@ td {
 }
 
 /* Images */
-.skillButton {
-  background-color:white;
-  border: 4px solid; 
-  border-color:blue;
+
+.imgHero {
+  border: 4px solid white; 
   border-radius: 6px;
-  height: 45px;
-  left: 400px;
-  margin: 10px;
-  outline:none;
-  padding: 8px;
-  position: absolute;
-  text-transform: uppercase;
-  transition: all 0.3s ease 0s;
-  width: 400px;
+  width:200px;
+  height:200px;
 }
 
-#skill1Button {
-  top: 285px;
+#imgHero1 {
+  position: absolute;
+  left: 200px;
+  top: 10px;
+}
+
+#imgHero2 {
+  position: absolute;
+  left: 200px;
+  top: 210px;
+}
+
+#imgHero3 {
+  position: absolute;
+  left: 200px;
+  top: 410px;
+}
+
+.imgBoss {
+  border: 4px solid white; 
+  border-radius: 6px;
+}
+
+#imgBoss1 {
+  position: absolute;
+  left: 600px;
+  top: 10px;
+  width:104px;
+  height:142px;
 }
 
 /* Skill Buttons */
