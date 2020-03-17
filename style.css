@@ -9,6 +9,8 @@ body{
   background-image: url("https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/VztSF8QfQ0aYBL9-uvZXkw5quyXUohVqv2yc2IUhBuApX92IB?viewBox=1280%2C720");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
 table {
@@ -60,8 +62,8 @@ td {
   height: 200px;
   width: 200px; 
   position: absolute;
-  left: 400px;
-  top: 0px;
+  left: 700px;
+  top: 225px;
 }
 
 .divBoss table {
@@ -123,19 +125,19 @@ td {
 /* Attack Buttons */
 
 .divAttackButton {
-  height: 200px;
-  width: 200px; 
   position: absolute;
   left: 400px;
-  top: 225px;
+  top: 475px;
+  height: 200px;
+  width: 250px; 
 }
 
 .divDefendButton {
-  height: 200px;
-  width: 200px; 
   position: absolute;
-  left: 525px;
-  top: 225px;
+  left: 400px;
+  top: 550px;
+  height: 200px;
+  width: 250px; 
 }
 
 .actionButton {
@@ -161,6 +163,7 @@ td {
 
 #attackButton:hover {
   color:black;
+  background-color: rgba(243, 113, 113, 0.63);
 }
 
 #attackButton:active {
@@ -175,6 +178,7 @@ td {
 
 #defendButton:hover {
   color:black;
+  background-color: rgba(134, 243, 113, 0.63);
 }
 
 #defendButton:active {
@@ -185,8 +189,6 @@ td {
 /* Images */
 
 .imgHero {
-  border: 4px solid white; 
-  border-radius: 6px;
   width:200px;
   height:200px;
 }
@@ -209,17 +211,13 @@ td {
   top: 410px;
 }
 
-.imgBoss {
-  border: 4px solid white; 
-  border-radius: 6px;
-}
 
 #imgBoss1 {
   position: absolute;
-  left: 600px;
-  top: 10px;
-  width:104px;
-  height:142px;
+  left: 450px;
+  top: 225px;
+  width:200px;
+  height:200px;
 }
 
 /* Skill Buttons */
@@ -230,7 +228,7 @@ td {
   border-color:blue;
   border-radius: 6px;
   height: 45px;
-  left: 400px;
+  left: 550px;
   margin: 10px;
   outline:none;
   padding: 8px;
@@ -241,24 +239,29 @@ td {
 }
 
 #skill1Button {
-  top: 285px;
+  top: 460px;
 }
 
 #skill2Button {
-  top: 335px;
+  top: 510px;
 }
 
 #skill3Button {
-  top: 385px;
+  top: 560px;
 }
 
 .skillButton:hover {
   border-radius: 50px;
   transition: all 0.3s ease 0s;
   outline:none;
+  background-color: rgba(113, 202, 243, 0.63);
+
 }
 
-
+.skillButton:active {
+  background-color: blue;
+  transform: translateY(4px);
+}
 
 
 /* Status Message Area */
@@ -272,7 +275,7 @@ td {
   background-color:white;
   position: absolute;
   left: 400px;
-  top: 450px;
+  top: 10px;
   border-radius: 15px;
 }
 
