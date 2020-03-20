@@ -2,9 +2,47 @@
 //  UTILITY FUNCTIONS  //
 /////////////////////////
 
+//New Game button has been pressed.
+function startButton()
+{
+  var msg = document.getElementById('areaStatusMessages');
+  
+  msg.value =  "";
+  msg.value += "\n" + "Welcome to a Senior Project by John Duran...";
+  msg.value += "\n" + " ";
+  msg.value += "\n" + "CRAZED JESTER BOSS BATTLE";
+  msg.value += "\n" + "=========================";
+  msg.value += "\n" + " ";
+  msg.value += "\n" + "Press New Game to start! ";
+ 
+}
+
+//New Game button has been pressed.
+function attkButton()
+{
+  var msg = document.getElementById('areaStatusMessages');
+  
+  msg.value += "\n" + " ";
+  msg.value += "\n" + "You have attacked!";
+
+  msg.scrollTop = msg.scrollHeight;
+
+}
+
+//New Game button has been pressed.
+function defdButton()
+{
+  var msg = document.getElementById('areaStatusMessages');
+  
+  msg.value += "\n" + " ";
+  msg.value += "\n" + "You have defended!";
+ 
+  msg.scrollTop = msg.scrollHeight;
+
+}
+
 //Change a character element to "active" styling.
 function activate(element){
-
   document.getElementById('divHero1').className = "";
   document.getElementById('divHero2').className = "";
   document.getElementById('divHero3').className = "";

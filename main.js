@@ -5,13 +5,10 @@
 // MAIN GAME LOOP //
 ////////////////////
 
-//Was RESTART button pressed?
+//Was NEW GAME button pressed?
 //  If yes, go back to START GAME.
 
-
-
-
-
+//startButton();
 
 //Is boss dead?  
 //  If yes, go to WIN GAME.

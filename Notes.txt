@@ -12,6 +12,8 @@ Cool animations
 ---------------
 https://jsfiddle.net/macloo/g39k3h3e/
 http://cssdeck.com/labs/pure-css-click-animations
+http://www.pngplay.com/image/tag/evil-jester
+
 
 Particles
 ---------
@@ -25,3 +27,32 @@ https://vincentgarreau.com/particles.js/
 Sounds
 -----
 https://stackoverflow.com/questions/29594023/getting-camera-like-shutter-flash-effect-on-button-click-with-html5-and-jquery
+
+Animtated GIFs
+--------------
+    <img id="imgHero2" class="imgHero" src="https://media2.giphy.com/media/kjgOJEYp9ZCbS/source.gif" >
+
+
+    <img id="imgHero3"  class="imgHero" src="https://lh5.googleusercontent.com/proxy/C5w6kmj6QP5aJXG6CSg2qlZ3u6XwwdJugLN32KKrn9LKJTi8rzDlYCkOAkeWY020pE8V2MKPknqV7A2vsQes361pfGH5hHGg6jkbHw" >
+
+
+    <img id="imgHero2" class="imgHero" src="https://www.netprogs.com/wp-content/uploads/2015/05/Demo_Skeleton_Attack_Pounce.gif" >
+
+
+    <img id="imgHero3"  class="imgHero" src="https://www.netprogs.com/wp-content/uploads/2015/05/Earth_Mage_Cast.gif" >
+
+
+
+https://www.netprogs.com/gallery/gallery-animations/
+
+Icons
+-----
+http://www.iconarchive.com/
+
+https://www.flaticon.com/free-icons/hero
+
+background
+----------
+https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/VztSF8QfQ0aYBL9-uvZXkw5quyXUohVqv2yc2IUhBuApX92IB?viewBox=1280%2C720
+
+  background-image: url("https://i.ytimg.com/vi/v2iWow1QFtk/maxresdefault.jpg");
