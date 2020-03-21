@@ -39,13 +39,12 @@ function initialize()
   lblBossAttack.innerText  = boss[0].Attack;
   lblBossDefense.innerText  = boss[0].Defense;
 
-  // Show Welcome message and start of game.
+  // Show Welcome message.
   msg.value =  "";
   msg.value += "\n" + "Welcome to a Senior Project by John Duran...";
   msg.value += "\n" + " ";
   msg.value += "\n" + "CRAZED JESTER BOSS BATTLE";
   msg.value += "\n" + "=========================";
   msg.value += "\n" + " ";
-  msg.value += "\n" + "Press New Game to start! ";
 
 }

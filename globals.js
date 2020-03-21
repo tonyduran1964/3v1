@@ -51,8 +51,6 @@ var sizzeal = hero.findIndex(i => i.Name === "Sizzeal");
 
 //// Declare game variables. \\\\
 
-var currentAttacker = 0;  //Who's turn is it to attack?
-
 //Used for attack order.
 var attackOrder = [
   hero[0].Name,
@@ -61,6 +59,10 @@ var attackOrder = [
   boss[0].Name
 ]; 
 
-var gameEnd = false;
+//Who's turn is it to attack?
+var currentAttacker = 0;  
+
+//Flag for game end.
+var gameOver = 0; //1=you won, 2=you lost
 
 
