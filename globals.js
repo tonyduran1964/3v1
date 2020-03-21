@@ -38,7 +38,7 @@ var lblBossAttack = document.getElementById('lblBossAttack');
 var lblBossDefense = document.getElementById('lblBossDefense');
 
 //Message Box
-var msg = document.getElementById('areaStatusMessages');
+var msg = document.getElementById('areaStatusMessages'); 
 
 //Get the index of each hero using their names.
 // (Might not need this.)
@@ -59,10 +59,7 @@ var attackOrder = [
   boss[0].Name
 ]; 
 
-//Who's turn is it to attack?
-var currentAttacker = 0;  
-
 //Flag for game end.
 var gameOver = 0; //1=you won, 2=you lost
 
-
+var currentAttacker = -1;

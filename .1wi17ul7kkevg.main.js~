@@ -10,7 +10,8 @@ initialize();
 //Attack button has been pressed.
 function attackButton()
 {  
-  msg(attackOrder[currentAttacker] + " attacks!");
+  msg("A hero attacks!"+ currentAttacker;
+  msg.scrollTop = msg.scrollHeight;
 
   statusCheck()
 
@@ -19,7 +20,9 @@ function attackButton()
 //Defend button has been pressed.
 function defendButton()
 {
-  msg(attackOrder[currentAttacker] + " defends!");
+ 
+  msg.value += "\n" + "A hero defends!"+ currentAttacker;
+  msg.scrollTop = msg.scrollHeight;
 
   statusCheck()
  

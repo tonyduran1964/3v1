@@ -3,7 +3,7 @@
 ///////////////////////////
 
 function initialize()
-{
+{ 
   //// Set the screen elements to start values \\\\
 
   //Hero1 stats
@@ -40,11 +40,13 @@ function initialize()
   lblBossDefense.innerText  = boss[0].Defense;
 
   // Show Welcome message.
-  msg.value =  "";
-  msg.value += "\n" + "Welcome to a Senior Project by John Duran...";
-  msg.value += "\n" + " ";
-  msg.value += "\n" + "CRAZED JESTER BOSS BATTLE";
-  msg.value += "\n" + "=========================";
-  msg.value += "\n" + " ";
+  msg(" ");
+  msg("Welcome to a Senior Project by John Duran...");
+  msg(" ");
+  msg("CRAZED JESTER BOSS BATTLE");
+  msg("=========================");
+  msg(" ");
+
+  statusCheck()
 
 }
