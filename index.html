@@ -240,16 +240,16 @@
       </div>
 
       <!-- Boss Image. -->
-      <img id="imgBoss1" class="imgBoss" src="https://previews.dropbox.com/p/thumb/AAtbfaAjFarg_KxkWZ1ttIlEh3_FTbcA-i8j_8vWWi5D0Om8ywhr1ZcRU6Mtkw9z4B2MvduTpgHosrmnDUNkGx9QqN8Qx1Ftsp5UJY_qP6Mksfh5LD_PZhxXKlCY0Z6a48ndiAZWCe4ywJ6r4VeYbCAkzpP50TsCFUxicwZlhrz_cmD9-mm2OeXxc_f8Ik5bEwQ8JjO4Uu3sY-ABe2xUtzYYYrf7yfP0JrQnU_QQ1LP50C5Rmsv8d9hxAHU3g9f8tGOwrMCNIWMhGFircwWx9f1xofdMYUW-nuNn7ASeNpCBKDk4Bc1oLRWdqPC10E-YM77-mIJVVO1SJVzg719dUXSY/p.png" >
+      <img id="imgBoss1" class="imgBoss" src="http://icons.iconarchive.com/icons/martin-berube/character/256/Clown-icon.png" >
 
 
       <!-- Skill Buttons -->
-      <button id="skill1Button" class="skillButton" onclick="skill1Button()">Aqua Heal - Heals 80 HP for 3 turns</button>
+      <button id="skill1Button" class="skillButton" onclick="skill1Button()">Use skill 1</button>
       <button id="skill2Button" class="skillButton" onclick="skill1Button()">Use skill 2</button>
       <button id="skill3Button" class="skillButton" onclick="skill1Button()">Use skill 3</button>
 
       <!-- Status Messages Box -->
-      <textarea id="areaStatusMessages" class="scrollabletextbox" name="note">Snark took out plates of armor and gave them to Plunky.  Plunky gained 20 defense!</textarea>
+      <textarea id="areaStatusMessages" class="scrollabletextbox" name="note"></textarea>
 
       <!-- Attack Order Display -->
       <div id="divAttackOrder">
@@ -287,11 +287,11 @@
       <!-- BUTTONS ==>
 
       <!-- Start Buttons. -->
-      <button id="startButton" onclick="startButton()">New Game</button>    
+      <button id="startButton" onclick="location.reload();">New Game</button>    
 
       <!-- Action Buttons. -->
-      <button id="attackButton" class="actionButton" onclick="attkButton()">ATTACK</button>
-      <button id="defendButton" class="actionButton" onclick="defdButton()">DEFEND</button>
+      <button id="attackButton" class="actionButton" onclick="attackButton()">ATTACK</button>
+      <button id="defendButton" class="actionButton" onclick="defendButton()">DEFEND</button>
 
       <!-- Buttons to activate each character. -->
       <button onclick="activate('divHero1')">Activate Hero1</button>
@@ -306,8 +306,8 @@
       <script src="characters.js"></script>
       <script src="skills.js"></script>
       <script src="globals.js"></script>
+      <script src="initialize.js"></script>
       <script src="utils.js"></script>
-      <script src="init.js"></script>
       <script src="main.js"></script>
 
 

@@ -48,6 +48,9 @@ https://www.netprogs.com/gallery/gallery-animations/
 Icons
 -----
 http://www.iconarchive.com/
+http://www.iconarchive.com/show/character-icons-by-martin-berube.html
+http://www.iconarchive.com/show/people-icons-by-martin-berube.html
+http://www.iconarchive.com/show/animal-icons-by-martin-berube.html
 
 https://www.flaticon.com/free-icons/hero
 
@@ -56,3 +59,4 @@ background
 https://cnt-05.content-na.drive.amazonaws.com/cdproxy/templink/VztSF8QfQ0aYBL9-uvZXkw5quyXUohVqv2yc2IUhBuApX92IB?viewBox=1280%2C720
 
   background-image: url("https://i.ytimg.com/vi/v2iWow1QFtk/maxresdefault.jpg");
+

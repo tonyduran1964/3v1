@@ -37,6 +37,9 @@ var lblBoss3Health = document.getElementById('lblBossHealth');
 var lblBossAttack = document.getElementById('lblBossAttack');
 var lblBossDefense = document.getElementById('lblBossDefense');
 
+//Message Box
+var msg = document.getElementById('areaStatusMessages');
+
 //Get the index of each hero using their names.
 // (Might not need this.)
 var snark = hero.findIndex(i => i.Name === "Snark");
@@ -57,5 +60,7 @@ var attackOrder = [
   hero[2].Name,
   boss[0].Name
 ]; 
+
+var gameEnd = false;
 
 

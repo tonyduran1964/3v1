@@ -2,23 +2,8 @@
 //  UTILITY FUNCTIONS  //
 /////////////////////////
 
-//New Game button has been pressed.
-function startButton()
-{
-  var msg = document.getElementById('areaStatusMessages');
-  
-  msg.value =  "";
-  msg.value += "\n" + "Welcome to a Senior Project by John Duran...";
-  msg.value += "\n" + " ";
-  msg.value += "\n" + "CRAZED JESTER BOSS BATTLE";
-  msg.value += "\n" + "=========================";
-  msg.value += "\n" + " ";
-  msg.value += "\n" + "Press New Game to start! ";
- 
-}
-
-//New Game button has been pressed.
-function attkButton()
+//Attack button has been pressed.
+function attackButton()
 {
   var msg = document.getElementById('areaStatusMessages');
   
@@ -29,8 +14,8 @@ function attkButton()
 
 }
 
-//New Game button has been pressed.
-function defdButton()
+//Defend button has been pressed.
+function defendButton()
 {
   var msg = document.getElementById('areaStatusMessages');
   
@@ -68,10 +53,3 @@ function getNames(value, index, array) {
   }  
 }
 
-function attackButton() {
-  //alert("ATTACK");
-}
-
-function defendButton() {
-  //alert("DEFEND");
-}
