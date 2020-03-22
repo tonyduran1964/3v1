@@ -43,8 +43,9 @@ function initialize()
   msg(" ");
   msg("Welcome to a Senior Project by John Duran...");
   msg(" ");
-  msg("CRAZED JESTER BOSS BATTLE");
-  msg("=========================");
+  msg("=============================");
+  msg("  CRAZED JESTER BOSS BATTLE  ");
+  msg("=============================");
   msg(" ");
 
   statusCheck()

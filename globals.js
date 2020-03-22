@@ -62,4 +62,4 @@ var attackOrder = [
 //Flag for game end.
 var gameOver = 0; //1=you won, 2=you lost
 
-var currentAttacker = -1;
+var currentAttacker = 4;

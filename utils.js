@@ -37,26 +37,25 @@ function msg(text){
 
 function statusCheck()
 {
-  alert(currentAttacker);
-  if (currentAttacker > 3 || currentAttacker < 0)
+  //alert(currentAttacker);
+
+  if (currentAttacker > 3)
   {    
     //Randomly sort the fighters in attack order.
     shuffleArray(attackOrder);
     currentAttacker = 0;
 
-    msg("================ NEW ROUND ================");
+    msg("---------- NEW ROUND ----------");
     msg(attackOrder[currentAttacker] + " goes first.");
-
   } 
-
-  alert(currentAttacker);
 
   if (attackOrder[currentAttacker] == "The Crazed Jester")
   {
-    msg("The Crazed Jester attacked!");
+    msg("The Crazed Jester attacks!");
+    currentAttacker += 1;
   }
 
-
+  currentAttacker += 1;
 
   //Show the attack order on screen.
   lblAttackOrder1.innerText = attackOrder[0];
@@ -70,8 +69,7 @@ function statusCheck()
   if (attackOrder[currentAttacker] == "Sizzeal")  activate('divHero3');
   if (attackOrder[currentAttacker] == "The Crazed Jester")  activate('divBoss1');
 
-  currentAttacker += 1;
-
+  
   /*
   while (gameOver == 0)
   {
@@ -124,4 +122,40 @@ function statusCheck()
 
 }
 
+function statusCheck()
+{
+  //alert(currentAttacker);
+
+  currentAttacker += 1;
+
+  if (currentAttacker > 3)
+  {    
+    //Randomly sort the fighters in attack order.
+    shuffleArray(attackOrder);
+    currentAttacker = 0;
+
+    msg("---------- NEW ROUND ----------");
+    msg(attackOrder[currentAttacker] + " goes first.");
+  } 
+
+  if (attackOrder[currentAttacker] == "The Crazed Jester")
+  {
+    msg("The Crazed Jester attacks!");
+    currentAttacker += 1;
+  }
+
+
+  //Show the attack order on screen.
+  lblAttackOrder1.innerText = attackOrder[0];
+  lblAttackOrder2.innerText = attackOrder[1];
+  lblAttackOrder3.innerText = attackOrder[2];
+  lblAttackOrder4.innerText = attackOrder[3];
+
+  //"Activate" the current attacker.
+  if (attackOrder[currentAttacker] == "Snark")  activate('divHero1');
+  if (attackOrder[currentAttacker] == "Plunky")  activate('divHero2');
+  if (attackOrder[currentAttacker] == "Sizzeal")  activate('divHero3');
+  if (attackOrder[currentAttacker] == "The Crazed Jester")  activate('divBoss1');
+
+}
 
