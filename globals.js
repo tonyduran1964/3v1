@@ -62,4 +62,4 @@ var attackOrder = [
 //Flag for game end.
 var gameOver = 0; //1=you won, 2=you lost
 
-var currentAttacker = 4;
+var currentAttacker = 3; //Set this to last attacker, to trigger a new round.

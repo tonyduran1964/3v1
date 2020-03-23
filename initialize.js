@@ -48,6 +48,6 @@ function initialize()
   msg("=============================");
   msg(" ");
 
-  statusCheck()
+  getNextAttacker()
 
 }

@@ -1,5 +1,3 @@
-// NOTE: remnove CSS to show Johnsters.
-
 ////////////////////
 // MAIN GAME LOOP //
 ////////////////////
@@ -11,7 +9,7 @@ function attackButton()
 {  
   msg(attackOrder[currentAttacker] + " attacked!");
 
-  statusCheck()
+  getNextAttacker()
 
 }
 
@@ -20,20 +18,14 @@ function defendButton()
 {
   msg(attackOrder[currentAttacker] + " defended!");
 
-  statusCheck()
+  getNextAttacker()
 
 }
 
-  //  Is boss dead?  
-  //    gameOver = 1; break loop
+  //Are all heroes dead?
+  //  if (gameOver == 1)
+  //      lostGame();
 
-  //  Are all heroes dead?
-  //    gameOver = 2; break loop'
-
-  //if (gameOver == 1)
-  //    lostGame();
-
-  //if (gameOver == 2)
-  //  wongame()
-
-
+  //Is boss dead?  
+  //  if (gameOver == 2)
+  //    wongame()
