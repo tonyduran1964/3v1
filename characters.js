@@ -22,7 +22,7 @@ hero[1] = {
   Attack: 85,
   Note1: "75-95",
   Luck: 15,
-  Defense: 10,
+  Defense: 20,
   Note2: "80% damage",
   SkillPoints: 250,
   Recovery: 20,

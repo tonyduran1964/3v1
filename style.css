@@ -10,6 +10,7 @@ body{
   background-image: url("images/BackgroundSpheres.png");
   background-size: cover;
   background-attachment: fixed;
+  background: "files/"
 }
 
 .gameScreen{
@@ -38,6 +39,7 @@ td {
 
 .divHero {
   position: absolute;
+  border:yellow solid 5px;
   left: 10px;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -270,11 +272,15 @@ td {
   margin: 10px;
   height: 150px;
   width: 625px;
-  background-color:white;
   position: absolute;
   right: 0px;
   top: 0px;
   border-radius: 15px;
+  color:rgb(0,255,102);
+  background-color:rgb(40,40,40);
+  font-weight:bold;
+  font-size:larger;
+  font-family: 'Courier New', Courier, monospace
 }
 
 /*Start Button */
@@ -310,10 +316,3 @@ td {
 
 /* textarea */
 
-#areaStatusMessages {
-  color:rgb(0,255,102);
-  background-color:rgb(40,40,40);
-  font-weight:bold;
-  font-size:larger;
-  font-family: 'Courier New', Courier, monospace
-}
