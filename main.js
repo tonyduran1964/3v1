@@ -34,7 +34,7 @@ function skill1Button()
 //Skill 2 Button has been pressed
 function skill2Button()
 {
-  msg(attackOrder[currentAttacker] + "casts skill 2!");
+  msg(attackOrder[currentAttacker] + " casts skill 2!");
 
   getNextAttacker()
 }
