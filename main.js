@@ -8,8 +8,10 @@ initialize();
 function attackButton()
 {  
   msg(attackOrder[currentAttacker] + " attacked!");
-
-  getNextAttacker()
+    
+  heroAttack();
+  
+  getNextAttacker();
 
 }
 

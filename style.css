@@ -39,7 +39,6 @@ td {
 
 .divHero {
   position: absolute;
-  border:yellow solid 5px;
   left: 10px;
   top: 50%;
   -ms-transform: translateY(-50%);
