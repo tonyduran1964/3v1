@@ -6,9 +6,9 @@ initialize();
 
 //Attack button has been pressed.
 function attackButton()
-{  
-  msg(attackOrder[currentAttacker] + " attacked!");
-    
+{    
+  msg(" ");
+  
   heroAttack();
   
   getNextAttacker();
@@ -18,7 +18,9 @@ function attackButton()
 //Defend button has been pressed.
 function defendButton()
 {
-  msg(attackOrder[currentAttacker] + " defended!");
+  msg(" ");
+
+  heroDefend();
 
   getNextAttacker()
 
@@ -27,6 +29,8 @@ function defendButton()
 //Skill 1 button has been pressed
 function skill1Button()
 {
+  msg(" ");
+  
   msg(attackOrder[currentAttacker] + " casts skill 1!");
 
   getNextAttacker()
@@ -36,6 +40,8 @@ function skill1Button()
 //Skill 2 Button has been pressed
 function skill2Button()
 {
+  msg(" ");
+  
   msg(attackOrder[currentAttacker] + " casts skill 2!");
 
   getNextAttacker()
@@ -44,6 +50,8 @@ function skill2Button()
 //Skill 3 Button has been pressed
 function skill3Button()
 {
+  msg(" ");
+ 
   msg(attackOrder[currentAttacker] + " casts skill 3!");
 
   getNextAttacker()

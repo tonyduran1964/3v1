@@ -41,6 +41,7 @@ function getNextAttacker()
 
   if (attackOrder[currentAttacker] == "The Crazed Jester")
   {
+    msg(" ");
     msg("The Crazed Jester attacks!");
     currentAttacker += 1;
   }
@@ -56,6 +57,7 @@ function getNextAttacker()
 
     if (attackOrder[currentAttacker] == "The Crazed Jester")
     {
+      msg(" ");
       msg("The Crazed Jester attacks!");
       currentAttacker += 1;
     }
