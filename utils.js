@@ -71,10 +71,15 @@ function getNextAttacker()
   lblAttackOrder3.innerText = attackOrder[2];
   lblAttackOrder4.innerText = attackOrder[3];
 
+  //update skill buttons
+
+  
+  
   //"Activate" the current attacker.
   if (attackOrder[currentAttacker] == "Snark")  activate('divHero1');
   if (attackOrder[currentAttacker] == "Plunky")  activate('divHero2');
   if (attackOrder[currentAttacker] == "Sizzeal")  activate('divHero3');
   if (attackOrder[currentAttacker] == "The Crazed Jester")  activate('divBoss1');
 
+  updateHeroSkills()
 }

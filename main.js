@@ -27,7 +27,7 @@ function defendButton()
 }
 
 //Skill 1 button has been pressed
-function skill1Button()
+function btnSkill1()
 {
   msg(" ");
   
@@ -38,7 +38,7 @@ function skill1Button()
 }
 
 //Skill 2 Button has been pressed
-function skill2Button()
+function btnSkill2()
 {
   msg(" ");
   
@@ -48,7 +48,7 @@ function skill2Button()
 }
 
 //Skill 3 Button has been pressed
-function skill3Button()
+function btnSkill3()
 {
   msg(" ");
  

@@ -32,3 +32,17 @@ function heroDefend() {
 
   msg(heroName + " gained 30 defense for the round!");
 }
+
+function updateHeroSkills() {
+  
+  var heroName = attackOrder[currentAttacker]; 
+  
+  var currentHero = hero.findIndex(i => i.Name === heroName);
+
+  btnSkill1.innerText = hero[currentHero].Skills[0]; 
+ 
+  btnSkill2.innerText = hero[currentHero].Skills[1]; 
+ 
+  btnSkill3.innerText = hero[currentHero].Skills[2]; 
+
+}

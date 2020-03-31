@@ -224,17 +224,17 @@ td {
   transform: translateY(4px);
 }
 
-#skill1Button {
+#btnSkill1 {
   right: 0px;
   bottom: 120px;
 }
 
-#skill2Button {
+#btnSkill2 {
   right: 0px;
   bottom: 60px;
 }
 
-#skill3Button {
+#btnSkill3 {
   right: 0px;
   bottom: 0px;
 }

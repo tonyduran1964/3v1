@@ -39,6 +39,8 @@ function initialize()
   lblBossAttack.innerText  = boss[0].Attack;
   lblBossDefense.innerText  = boss[0].Defense;
 
+
+
   // Show Welcome message.
   msg(" ");
   msg("Welcome to a Senior Project by John Duran...");

@@ -37,6 +37,12 @@ var lblBoss3Health = document.getElementById('lblBossHealth');
 var lblBossAttack = document.getElementById('lblBossAttack');
 var lblBossDefense = document.getElementById('lblBossDefense');
 
+//all buttons
+
+var btnSkill1 = document.getElementById('btnSkill1');
+var btnSkill2 = document.getElementById('btnSkill2');
+var btnSkill3 = document.getElementById('btnSkill3');
+
 //Message Box
 var msg = document.getElementById('areaStatusMessages'); 
 
