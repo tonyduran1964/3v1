@@ -12,7 +12,7 @@ skill[0] = {
   };
 
 skill[1] = {
-  Name:"Flame Blast", 
+  Name:"Flame Blast",
   Type: "Fire",
   Cost: 40,
   Does: "Deals 250 HP",

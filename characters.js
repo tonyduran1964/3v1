@@ -15,6 +15,9 @@ hero[0] = {
   SkillPoints: 200,
   Recovery: 25,
   Skills: ["Shadow Shot", "Intimidate", "Taze"],
+  Skill1Desc: "Snark conjured a blast of dark energy and fired!",
+  Skill2Desc: "Snark gaze his foe a piercing gaze. The Crazed Jester was intimidated",
+  Skill3Desc: "Snark casts a small jolt of electricity!",
   Speed: 0 
 }
 
@@ -31,6 +34,9 @@ hero[1] = {
   SkillPoints: 250,
   Recovery: 20,
   Skills: ["Encourage", "Fortify", "Weaken"],
+  Skill1Desc: "Plunky told his team that tacos would be on him if they won!",
+  Skill2Desc: "Plunky took out some armor plates and passed them around.",
+  Skill3Desc: "Plunky told the Crazed Jester his shoes were untied. Crazed Jester lowered his gaurd!",
   Speed: 0 
 }
 
@@ -47,6 +53,9 @@ hero[2] = {
   SkillPoints: 300,
   Recovery: 30,
   Skills: ["Sizzle", "Heal Prayer", "Aqua Heal"],
+  Skill1Desc: "Sizzeal casts a controlled flame!",
+  Skill2Desc: "Sizzeal prayed for the health of the team... His prayer was answered!",
+  Skill3Desc: "Sizzeal took out a flask of healing water! He poured it on a team member?",
   Speed: 0 
 
 }

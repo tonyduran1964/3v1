@@ -39,10 +39,10 @@ function updateHeroSkills() {
   
   var currentHero = hero.findIndex(i => i.Name === heroName);
 
-  btnSkill1.innerText = hero[currentHero].Skills[0]; 
+  document.getElementById('btnSkill1').firstChild.data = hero[currentHero].Skills[0]; 
  
-  btnSkill2.innerText = hero[currentHero].Skills[1]; 
+  document.getElementById('btnSkill2').firstChild.data = hero[currentHero].Skills[1]; 
  
-  btnSkill3.innerText = hero[currentHero].Skills[2]; 
+  document.getElementById('btnSkill3').firstChild.data = hero[currentHero].Skills[2]; 
 
 }
